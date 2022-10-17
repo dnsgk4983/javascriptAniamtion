@@ -1,0 +1,30 @@
+#myCanvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 778px;
+    height: 625px;
+    border: 5px solid black;
+}
+
+.control {
+    z-index: 10;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.control,
+select,
+option {
+    font-size: 25px;
+}
+
+.control img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100px;
+    width: auto;
+}
